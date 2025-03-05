@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   name: shubhrant
   labels:
-    app: hello-world
+    app: shubhrant
     org: orange
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: hello-world
+      app: shubhrant
   template:
     metadata:
       labels:
-        app: hello-world
+        app: shubhrant
     spec:
       containers:
       - name: shubhrant
