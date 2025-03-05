@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-world
+  name: shubhrant
 spec:
   selector:
-    app: hello-world
+    app: shubhrant
   ports:
     - protocol: TCP
       port: 80
