@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-world
+  name: shubhrant
   labels:
     app: hello-world
     org: orange
@@ -16,8 +16,8 @@ spec:
         app: hello-world
     spec:
       containers:
-      - name: hello-world
-        image: anandshbh/hello-world:latest
+      - name: shubhrant
+        image: anandshbh/shubhrant:latest
         ports:
         - containerPort: 5000
 
